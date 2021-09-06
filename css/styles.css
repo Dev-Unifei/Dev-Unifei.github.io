@@ -93,6 +93,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  max-width: 100%;
 }
 
 hr {
@@ -521,7 +522,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
@@ -11643,6 +11644,8 @@ fieldset:disabled .btn {
 }
 html {
   height: 100%;
+  max-width: 100%;
+  width: 100%;
   scroll-padding-top: calc(4.5rem - 1px);
 }
 
@@ -11869,4 +11872,3 @@ html {
 .copyright {
   background-color: rgb(35, 35, 35);
 }
-
